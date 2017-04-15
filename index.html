@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Random Quote Machine</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="quoteStyle.css">
+</head>
+
+<body>
+    <div class="container-fluid ">
+        <div class="row text-center general">
+            <div class="quote-area">
+                <q class="quote-text">quote text</q>
+                <h4 class="quote-author">author</h4>
+                <a href="#" target="_blank" class="btn btn-info pull-left" id="quote-tweet">Tweet</a>
+                <a class="btn btn-info pull-right" href="#" id="refresh" onclick="getQuote()">New Quote</a>
+            </div>
+        </div>
+    </div>
+    <script src="jquery.min.js"></script>
+    <script src="quoteScript.js"></script>
+</body>
+
+</html>

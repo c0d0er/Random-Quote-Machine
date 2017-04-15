@@ -1,0 +1,30 @@
+body {
+    background: url(http://www.wallpaperdx.com/images/sea-coast-and-lighthouse-sky-full-hd-nature-wallpaper.jpg) no-repeat center center fixed;
+    color: black;
+    background-size: cover;
+}
+
+.quote-area {
+    width: 750px;
+    /*background-color: #e5f4f3;*/
+    /*background-color:rgba(0,25,0,0.2);*/
+    margin-top: 130px;
+    margin-left: 90px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 60px;
+    border-radius: 30px;
+    color: white;
+}
+
+.quote-text {
+    font-size: 30px;
+}
+
+.quote-author {
+    text-align: right;
+    padding-right: 30px;
+    font-style: italic;
+    font-weight: 200;
+}
